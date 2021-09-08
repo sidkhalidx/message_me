@@ -1,0 +1,9 @@
+<% flash.each do |type, content| %>
+    <div class="ui <%= type %> message">
+        <i class="close icon"></i>
+        <div class="header">
+            <%= content %>
+        </div>
+        <p>This is a special notification which you can dismiss if you're bored with it.</p>
+    </div>
+<% end %>
